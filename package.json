@@ -1,6 +1,7 @@
 {
   "name": "shopingcar",
   "version": "0.1.0",
+  "homepage": "https://muqingyan1.github.io/mobx_apple",
   "private": true,
   "dependencies": {
     "@babel/plugin-proposal-decorators": "^7.13.5",
@@ -21,7 +22,8 @@
   "scripts": {
     "start": "react-app-rewired start",
     "build": "react-app-rewired build",
-    "test": "react-app-rewired test"
+    "test": "react-app-rewired test",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
@@ -40,5 +42,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^3.1.0"
   }
 }
